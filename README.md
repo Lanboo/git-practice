@@ -47,6 +47,9 @@ git add gitTemp.txt
 
 ### 1.6、`git commit`
 > `commit`会将`add`的文件放到本地仓库
+```
+git commit -m 'message'   // message是注释内容、log日志
+```
 
 ### 1.7、`git push`
 > 提交至Server端
