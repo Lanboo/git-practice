@@ -53,6 +53,9 @@ git commit -m 'message'   // message是注释内容、log日志
 
 ### 1.7、`git push`
 > 提交至Server端
+```
+git push origin master
+```
 
 
 ## 2、其他命令
