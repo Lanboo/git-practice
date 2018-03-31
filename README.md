@@ -8,11 +8,13 @@
 ### 1.1、准备工作
 1、在Server上创建仓库，比如这里的git-practice
 2、在本地某目录下创建git-practice文件夹
-
+3、在git-practice文件夹，右键-Git Bash Here
+![](https://github.com/Lanboo/git-practice/blob/master/resource/res1.png)
 ### 1.2、`git init`命令
 > 将当前目录创建成新的本地仓库
 
-操作：在git-practice文件夹，右键-Git Bash Here
+
+
 敲入`git init`
 
 ### 1.3、`git remote add origin`命令
