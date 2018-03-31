@@ -1,15 +1,23 @@
 # Git操作——入门级操作
 
-
-
 [Git的起源](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
+
+
+
+
+#####git 各个操作流转图
+![](https://img-blog.csdn.net/20170423160307093)
+
+[git入门](https://blog.csdn.net/zy00000000001/article/details/70505150)
+
 
 ## 1、练习
 ### 1.1、准备工作
 1、在Server上创建仓库，比如这里的git-practice
 2、在本地某目录下创建git-practice文件夹
 3、在git-practice文件夹，右键-Git Bash Here
-![](https://github.com/Lanboo/git-practice/blob/master/resource/res1.png)
+
+![右键-Git Bash Here](https://github.com/Lanboo/git-practice/blob/master/resource/res1.png)
 ### 1.2、`git init`命令
 > 将当前目录创建成新的本地仓库
 
@@ -31,6 +39,7 @@ touch gitTemp.txt
 vi gitTemp.txt
 ```
 [touch命令](https://blog.csdn.net/tanga842428/article/details/52856864)
+
 [vi命令](http://man.linuxde.net/vi)
 ### 1.5、`git add`
 >会将文件放到暂存区
