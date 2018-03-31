@@ -6,6 +6,7 @@
 
 
 #####git 各个操作流转图
+
 ![](https://img-blog.csdn.net/20170423160307093)
 
 [git入门](https://blog.csdn.net/zy00000000001/article/details/70505150)
