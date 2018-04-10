@@ -128,6 +128,13 @@ git checkout -b master  //如果分支存在则只切换分支，若不存在则
 git checkout --help
 git checkout -h
 ```
+#### 从Tag复制一个分支出来
+> `tag` 版本的代码是不允许改变的（即使切换到tag版本，并改变，当切回master时，改动的代码基本上全部丢失，这是非常危险的）
+
+故应该基于tag版本复制一个分支出来
+```
+git checkout -b branch_name tag_name    //branch_name是复制后的分支名称   tag_name是tag版本名称
+```
 
 
 ## 异常
