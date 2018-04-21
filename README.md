@@ -150,6 +150,7 @@ Java常用的：
 ``` xml
 # 忽略maven项目中的target文件夹
 */target
+/target
 
 # Compiled class file
 *.class
