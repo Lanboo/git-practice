@@ -1,5 +1,10 @@
 # Git操作——入门级操作
 
+
+[toc]
+
+
+
 [Git的起源](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
 
 
@@ -134,6 +139,20 @@ git checkout -h
 故应该基于tag版本复制一个分支出来
 ```
 git checkout -b branch_name tag_name    //branch_name是复制后的分支名称   tag_name是tag版本名称
+```
+
+## 3、`.gitignore`文件，忽略指定文件、文件夹
+首先，用'touch .gitignore'命令生成`.gitignore`文件，编辑改文件即可。
+
+[Github官方准备的.gitignore文件](https://github.com/github/gitignore)
+
+Java常用的：
+``` xml
+# 忽略maven项目中的target文件夹
+*/target
+
+# Compiled class file
+*.class
 ```
 
 
