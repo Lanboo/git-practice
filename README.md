@@ -105,7 +105,11 @@ git clone -b [new_branch_name]  xxx.git
 ```
 git branch  //不带参数：列出本地已经存在的分支，并且在当前分支的前面用"*"标记
 git branch -r  //查看远程版本库分支列表
+
+//另外，如果本地看不到远程分支，可以先[git fetch]更新remote索引，之后就可以看到了
+//https://blog.csdn.net/liuniansilence/article/details/73832642
 git branch -a  //查看所有分支列表，包括本地和远程
+
 git branch dev  //创建名为dev的分支，创建分支时需要是最新的环境，创建分支但依然停留在当前分支
 git branch -d dev  //删除dev分支，如果在分支中有一些未merge的提交，那么会删除分支失败
 git branch -D dev  //强制删除dev分支
