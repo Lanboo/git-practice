@@ -143,6 +143,7 @@ git checkout -h
 故应该基于tag版本复制一个分支出来
 ```
 git checkout -b branch_name tag_name    //branch_name是复制后的分支名称   tag_name是tag版本名称
+git push -u origin branch_name          //提交分支branch_name至远程
 ```
 
 ## 3、`.gitignore`文件，忽略指定文件、文件夹
