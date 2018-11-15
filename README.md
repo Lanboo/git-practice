@@ -74,6 +74,19 @@ git commit -m 'message'   // message是注释内容、log日志
 git push origin master
 ```
 
+### 1.8、`git pull`
+> 拉取远程分支到本地
+```
+git pull origin master
+```
+
+```
+合并dev分支到master
+git checkout master     // 切换到master分支
+git pull origin dev     // 从dev分支拉取内容到本地master分支
+git push origin master  // 提交到远程master分支
+```
+
 
 ## 2、其他命令
 ### `git config --list`
